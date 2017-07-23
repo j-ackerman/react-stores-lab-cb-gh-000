@@ -16,6 +16,6 @@ class CounterStore extends Store {
   }
 }
 
-const counterStore = new CounterStore(0);
+const counterStore = new CounterStore();
 
 export default counterStore;
